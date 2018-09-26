@@ -1,4 +1,4 @@
-# Jenkins Docker container with build-essential and clang
+# Docker container with Jenkins, Docker, build-essential and clang
 
 Run like this:
 
