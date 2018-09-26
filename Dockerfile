@@ -22,6 +22,8 @@ RUN apt-get update && \
    apt-get update && \
    apt-get -y install build-essential clang docker-ce
 
-# Drop back to user jenkins post-install as recommended here:
-#   https://github.com/jenkinsci/docker#installing-more-tools
-USER jenkins
+# TODO(macourteau): find a way to make /var/run/docker.sock owned by 'jenkins',
+# and re-enable this.
+# # Drop back to user jenkins post-install as recommended here:
+# #   https://github.com/jenkinsci/docker#installing-more-tools
+# USER jenkins
