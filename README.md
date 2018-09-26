@@ -9,7 +9,7 @@ docker run \
     --env JAVA_OPTS=-Dhudson.footerURL=http://mycompany.com \
     -v jenkins_home:/var/jenkins_home \
     -v /var/run/docker.sock:/var/run/docker.sock \
-    macourteau/jenkins-docker-buildessential:latest
+    macourteau/docker-jenkins-buildessential:latest
 ```
 
 See the [Jenkins docs](https://github.com/jenkinsci/docker/blob/master/README.md)
