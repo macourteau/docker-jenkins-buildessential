@@ -1,5 +1,6 @@
-![Docker Automated build](https://img.shields.io/docker/automated/macourteau/docker-jenkins-buildessential.svg)
-![Docker Pulls](https://img.shields.io/docker/pulls/macourteau/docker-jenkins-buildessential.svg)
+![Build status](https://img.shields.io/github/actions/workflow/status/macourteau/docker-jenkins-buildessential/.github%2Fworkflows%2Fmain.yml)
+![Docker pulls](https://img.shields.io/docker/pulls/macourteau/docker-jenkins-buildessential.svg)
+![Docker image size](https://img.shields.io/docker/image-size/macourteau/docker-jenkins-buildessential.svg)
 
 # Docker container with Jenkins, Docker, build-essential and more
 
