@@ -12,5 +12,6 @@ rm ${GO_ARCHIVE}
 
 PATH=$PATH:/usr/local/go/bin
 
-# Install the Amazon ECR Credential helper.
-go install github.com/awslabs/amazon-ecr-credential-helper/ecr-login/cli/docker-credential-ecr-login@latest
+# TODO: macourteau - consider reenabling this.
+## Install the Amazon ECR Credential helper.
+#go install github.com/awslabs/amazon-ecr-credential-helper/ecr-login/cli/docker-credential-ecr-login@latest
