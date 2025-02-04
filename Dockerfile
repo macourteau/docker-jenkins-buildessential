@@ -15,7 +15,7 @@ RUN --mount=source=install_go.sh,target=/mnt/install_go.sh,type=bind \
     /mnt/install_go.sh
 
 # Include Go and its binaries in the PATH.
-ENV PATH "$PATH:/usr/local/go/bin:/root/.go/bin:/root/go/bin"
+ENV PATH="$PATH:/usr/local/go/bin:/root/.go/bin:/root/go/bin"
 
 # TODO(macourteau): find a way to make /var/run/docker.sock owned by 'jenkins',
 # and re-enable this.
