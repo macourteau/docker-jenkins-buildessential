@@ -37,6 +37,9 @@ daemon inside this container.
 
 ## Using `amazon-ecr-credential-helper`
 
+> [!WARNING]
+> This is not currently included in the image.
+
 Create a `credentials` file in the `aws` directory (see `credentials.sample`),
 create a `config.json` file in the `docker` directory (see
 `config.json.sample`), and add volume mounts:
