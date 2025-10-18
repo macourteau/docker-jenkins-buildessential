@@ -17,7 +17,6 @@ apt-get install --yes \
     make \
     python3 \
     python3-pip \
-    software-properties-common \
     unzip \
     zip \
     zstd
